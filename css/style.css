@@ -1,0 +1,28 @@
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.galery__list {
+  display: flex;
+  flex-wrap: wrap;
+}
